@@ -12,3 +12,13 @@ console.log("Segundo console.log = ", nota);
 
 nota = nota + 2;
 console.log("Terceiro console.log = ", nota);
+
+// if else 
+
+if (nota >= 7 ){
+    console.log("Passou!!");
+} else if (nota >= 5 && nota < 7){
+    console.log("Você precisa fazer a última prova");
+} else {
+    console.log("Recuperação");
+}
