@@ -22,3 +22,9 @@ if (nota >= 7 ){
 } else {
     console.log("Recuperação");
 }
+
+// Recebe um valor Boolean a partir de uma condicional 
+
+let result;
+result = nota > 7;
+console.log("Result consolelog = ", result);
