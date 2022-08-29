@@ -28,3 +28,13 @@ if (nota >= 7 ){
 let result;
 result = nota > 7;
 console.log("Result consolelog = ", result);
+
+
+// Arrays e Loops
+
+const number = [10,8,7,6,5,76,13,1,43,201];
+
+// imprima as estruturas 'index value' de um array e o seu tamanho
+
+console.table(number);
+console.log(number.length)
