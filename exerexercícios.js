@@ -47,3 +47,15 @@ for ( let i = 0; i < number.length; i += 1) {
         number[i]
     );
 }
+
+function arrayNum(array, num) {
+    
+    for(let index = 0; index < array.length; index +=1) {
+        if (array[index] === num) {
+            console.log(index)
+        } else {
+            console.log("Elemento não encontrado no array")
+        }
+    }
+}
+console.log(arrayNum([10,8,7,6,5,76,13,1,43,201],7))
