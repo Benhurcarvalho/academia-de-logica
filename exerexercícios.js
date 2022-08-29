@@ -38,3 +38,12 @@ const number = [10,8,7,6,5,76,13,1,43,201];
 
 console.table(number);
 console.log(number.length)
+
+for ( let i = 0; i < number.length; i += 1) {
+    console.log(
+        "Eu sou o index ", 
+        i,
+        " e meu valor no array é:",
+        number[i]
+    );
+}
