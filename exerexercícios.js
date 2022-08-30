@@ -59,3 +59,13 @@ function arrayNum(array, num) {
     }
 }
 console.log(arrayNum([10,8,7,6,5,76,13,1,43,201],7))
+
+function numerosImpares() {
+    let arrayNum = []
+
+    for (i = 0; i < 50; i += 1){
+        if (i% 2 !== 0) {
+            arrayNum.push(i)
+        }
+    }return arrayNum.join()
+}
