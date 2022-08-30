@@ -69,3 +69,19 @@ function numerosImpares() {
         }
     }return arrayNum.join()
 }
+
+function divPor3 (array){
+    let num1 = array[0];
+    let num2 = array.leangth - 1
+    let soma = 0
+    for (let index = 0; index < array.length; index++) {
+        if (array[index]% 3 === 0) {
+          soma = soma + 1  
+        }
+    } 
+        if (soma >= 50){
+            return "Ha 50 ou mais número divisíveis por 3"
+        } else {
+            return "Sequencia muito pequena"
+        }
+}
